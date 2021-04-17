@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 * {
     margin: 0;
@@ -8,10 +8,7 @@
 }
 
 .body__background {
-    background-image: linear-gradient(to top, #ffffff , #fffff6);
-    background-size: cover;  
-    background-repeat: no-repeat; 
-    margin: 20px;
+  background-color: #f9f6f4;
 }
 
 /****INICIO DE ESTILOS DE NAVEGADOR****/
@@ -23,7 +20,7 @@
 }
 
 .navbar .navbar__list {
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
     color: darkslategray;
     font-size: 16px;
     list-style-type: none;
@@ -33,7 +30,7 @@
 }
 
 .navbar .navbar__a {
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
     color: darkslategray;
     font-size: 16px;
     text-decoration: none;
@@ -90,7 +87,7 @@
 }
 
 .section__centertext { 
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
     color: darkslategray;
     font-size: 16px;
     max-width: 70%;
@@ -126,7 +123,17 @@
     text-align: center;
 }
 .section__a {
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
+    color: darkslategray;
+    font-size: 16px;
+    text-decoration: none;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+.container-fluid .section__a {
+    font-family: 'Roboto', sans-serif;
     color: darkslategray;
     font-size: 16px;
     text-decoration: none;
@@ -136,7 +143,7 @@
 }
 
 .section__list {
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
     color: darkslategray;
     display: flex;
     flex-flow: column wrap;
@@ -147,7 +154,7 @@
 /****INICIO DE ESTILOS DE TABLA****/
 
 .section__table  {
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
     color: darkslategray;
     font-size: 16px;
     margin: 2rem;
@@ -169,7 +176,7 @@
 /****INICIO DE ESTILOS DEL FORMULARIO****/
 
 .section__form { 
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
     color: darkslategray;
     margin-top: 1rem;
     height: 400px;
@@ -205,7 +212,7 @@
 /****INICIO DE ESTILOS DE FOOTER****/
 
 .footer {
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
     color: darkslategray;
     font-size: 16px;
     margin: 5rem 0;
@@ -215,7 +222,7 @@
 }
 
 .footer__a {
-    font-family: 'PT Serif', serif;
+    font-family: 'Roboto', sans-serif;
     color: darkslategray;
     font-size: 16px;
     text-decoration: none;

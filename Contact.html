@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
     <title>Marcos Demarchi</title>
 </head>
@@ -19,36 +20,49 @@
         </ul>
     </nav>
     </header>
-    <section>
+    <section class="container">
+      <div class="row"> 
+        <article class="col-12">
         <h1 class="section__title">Contact</h1>
-        <div>
-            <form class="section__form" action="" method="post">
-            <ul>
-                <li class="section__list">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="user_name">
-                </li>
-                <li class="section__list">
-                <label for="mail">Email Address:</label>
-                <input type="email" id="mail" name="user_mail">
-                </li>
-                <li class="section__list">
-                <label for="msg">Msg:</label>
-                <input type="text" id="msg" name="user_message">
-                </li>
-            </ul>
-            <div class="section__form__button">
-            <button class="section__form__button__line" type="submit">Send</button>
-            <button class="section__form__button__line" type="reset">Reset</button>
-            </div>   
+
+        <!-- Formulario con Bootstrap -->
+
+        <div class="container contact-form">
+            <form method="post">
+              <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+                        </div>
+                    </div>
+                </div>
             </form>
         </div>
+        </article>
+      </div> 
     </section>
+
     <footer class="footer">
         <span>Marcos Demarchi, 32 yrs old, Buenos Aires, Argentina.</span>
         <a class="footer__a" href="">Mail</a>
         <a class="footer__a" href="">Instagram</a>
         <a class="footer__a" href="">Linkedin</a>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
 </body>
 </html>
