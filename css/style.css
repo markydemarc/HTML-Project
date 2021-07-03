@@ -26,6 +26,15 @@
   text-align: center;
   display: inline; }
 
+.navbar .navbar__list__cart {  
+  font-family: 'Roboto', sans-serif;
+  color: darkslategray;
+  font-size: 16px;
+  list-style-type: none;
+  padding: 20px;
+  text-align: center;
+  display: inline; }
+
 .navbar .navbar__a {
   font-family: 'Roboto', sans-serif;
   color: darkslategray;
@@ -171,6 +180,87 @@
   width: 120px;
   margin-left: 10px;
   transform: translate(0px, 60px); }
+
+/****INICIO DE ESTILOS DEL CART****/
+
+.section__cart__container,
+.section__cart__container_products {
+  font-family: 'Roboto', sans-serif;
+  color: darkslategray;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-bottom: 100px;
+}
+
+.section__cart__addbtn {
+  font-family: 'Roboto', sans-serif;
+  color: darkslategray;
+  font-size: 16px;
+  text-decoration: none;
+  margin: auto;
+  width: 50%;
+  padding: 10px; }
+
+.section__cart__container_products {
+  max-width: 650px;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+
+.section__cart__products ion-icon {
+  font-size: 25px;
+  color: darkslategray;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+} 
+
+
+.section__cart__products__header {
+  width: 100%;
+  max-width: 650px;
+  display: flex;
+  justify-content: flex-start;
+  border-bottom: 4px solid lightgray;
+  margin: 0 auto;
+}
+
+.section__cart__products__title {
+  width: 45%;
+}
+
+.section__cart__products__price {
+  width: 15%;
+  display: flex;
+  align-items: center;
+}
+
+.section__cart__products {
+  width: 45%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.section__cart__products__total {
+  width: 10%;
+  display: flex;
+  align-items: center;
+}
+
+.section__cart__products__qty {
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+
+
 
 /****INICIO DE ESTILOS DE GRILLA****/
 .section__grid {
